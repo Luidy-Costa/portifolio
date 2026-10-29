@@ -22,12 +22,15 @@ export default function SobrePage() {
         <h2 className="text-3xl font-bold mb-6 text-indigo-400">Sobre Mim</h2>
         <p className="text-slate-300 leading-relaxed mb-6">
           Sou estudante do curso de Tecnologia em Análise e Desenvolvimento de Sistemas no IFCE.
-          Atualmente estou aprofundando conhecimentos em desenvolvimento web moderno com Next.js, React e Tailwind CSS.
+          Atualmente estou no 5º semestre e me especilizando em Next.js, React e Tailwind CSS.
         </p>
 
         <h3 className="text-xl font-semibold mb-3 text-white">Competências Técnicas</h3>
         <ul className="list-disc list-inside space-y-2 text-slate-300">
           <li>TypeScript / JavaScript</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>Ciencia de dados</li>
           <li>Next.js (App Router)</li>
           <li>Tailwind CSS</li>
           <li>Git & GitHub</li>

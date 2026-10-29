@@ -19,9 +19,9 @@ export default function HomePage() {
       </header>
 
       <main className="max-w-4xl w-full mx-auto my-auto py-12 text-center">
-        <h2 className="text-4xl font-extrabold mb-4">Olá! Sou Estudante de ADS 👋</h2>
+        <h2 className="text-4xl font-extrabold mb-4">Olá! Sou Estudante de ADS </h2>
         <p className="text-lg text-slate-300 mb-8 max-w-xl mx-auto">
-          Bem-vindo ao meu portfólio desenvolvido com Next.js (App Router) e Tailwind CSS.
+          Bem-vindo ao meu portfólio com Next.js e Tailwind CSS.
         </p>
         <div className="flex gap-4 justify-center">
           <Link

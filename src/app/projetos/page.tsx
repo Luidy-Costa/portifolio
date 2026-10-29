@@ -22,19 +22,36 @@ export default function ProjetosPage() {
         <h2 className="text-3xl font-bold mb-6 text-indigo-400">Meus Projetos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-slate-800 p-6 rounded-lg border border-slate-700">
-            <h3 className="text-xl font-semibold mb-2">Prática 03: Portfólio Pessoal</h3>
+            <h3 className="text-xl font-semibold mb-2">Portfólio Pessoal</h3>
             <p className="text-slate-400 text-sm mb-4">
-              Desenvolvido com Next.js App Router e Tailwind CSS para a disciplina de PWII.
+              Desenvolvido com Next.js e Tailwind CSS para a disciplina de PWII.
             </p>
             <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded">Next.js</span>
           </div>
 
           <div className="bg-slate-800 p-6 rounded-lg border border-slate-700">
-            <h3 className="text-xl font-semibold mb-2">Aplicação Web</h3>
+            <h3 className="text-xl font-semibold mb-2">Helana</h3>
             <p className="text-slate-400 text-sm mb-4">
-              Sistema interativo para gestão e consulta de dados.
+              Sistema web de auxilio ao diagnostico de cancer de pulmão utilizando inteligencia artificial especializada 
             </p>
-            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded">TypeScript</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded mx-1">Python</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded mx-1">Flask</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded mx-1">portgress</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded mx-1">TypeScript</span>
+          </div>
+
+
+          <div className="bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <h3 className="text-xl font-semibold mb-2">Sistram</h3>
+            <p className="text-slate-400 text-sm mb-4">
+              Sistema web de auxílio médico à marcação e encaminhamento de pacientes para exames, consultas e derivados.
+            </p>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded m-1">Next.js</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded m-1">TypeScript</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded m-1">Tailwind CSS</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded m-1">PostgreSQL</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded m-1">Prisma</span>
+            <span className="inline-block bg-indigo-900/50 text-indigo-300 text-xs px-3 py-1 rounded m-1">PWA</span>
           </div>
         </div>
       </main>
